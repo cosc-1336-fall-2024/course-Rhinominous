@@ -1,5 +1,10 @@
 import devprocess
 
-result = devprocess.add_numbers(5, 5)
+def main():
+    value1 = input("Enter value 1 ")
+    value2 = input("Enter value 2 ")
 
-print(result)
+    result = devprocess.add_numbers(int(value1), int(value2))
+    print(result)
+
+main()
